@@ -1,0 +1,18 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qtdeclarative-render2d-opensource-src
+Source: https://download.qt.io/official_releases/qt/*/submodules/
+
+Files: *
+Copyright: 2015 2016 The Qt Company Ltd.
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2017 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+
+License: GPL-3+
+ This file may be used under the terms of the GNU General Public License
+ version 3.0 (or any later version) as published by the Free Software
+ Foundation.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
