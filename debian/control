@@ -1,0 +1,23 @@
+Source: qtdeclarative-render2d-opensource-src
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Dmitry Shachnev <mitya57@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: debhelper (>= 9), qtbase5-dev (>= 5.7.1+dfsg)
+Standards-Version: 3.9.8
+Section: libs
+Homepage: http://qt-project.org
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdeclarative-render2d.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative-render2d.git
+
+Package: qtdeclarative-render2d-opensource-src-dev
+Section: libdevel
+Architecture: any
+Depends: qtdeclarative-render2d-opensource-srcBROKEN (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: qtdeclarative-render2d-opensource-srcBROKEN
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
