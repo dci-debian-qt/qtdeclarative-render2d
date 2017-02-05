@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
+export QT_SELECT := qt5
+
+%:
+	dh $@ --with pkgkde_symbolshelper --parallel
+
+# We override qmake until https://bugreports.qt-project.org/browse/QTBUG-30735
+# gets solved (FTBFS with -nocache).
+override_dh_auto_configure:
+	qmake
