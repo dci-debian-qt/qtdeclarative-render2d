@@ -7,7 +7,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --with pkgkde_symbolshelper --parallel
+	dh $@ --parallel
 
 # We override qmake until https://bugreports.qt-project.org/browse/QTBUG-30735
 # gets solved (FTBFS with -nocache).
