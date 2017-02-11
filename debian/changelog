@@ -1,5 +1,6 @@
 qtdeclarative-render2d-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: #697509).
+  * Initial release (Closes: #697509). Some parts of the packaging where based
+    on Александр Волков's work.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 05 Feb 2017 18:36:14 -0300
