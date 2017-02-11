@@ -13,3 +13,7 @@ export QT_SELECT := qt5
 # gets solved (FTBFS with -nocache).
 override_dh_auto_configure:
 	qmake
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -rfv debian/qtdeclarative5-render2d-plugin/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/
