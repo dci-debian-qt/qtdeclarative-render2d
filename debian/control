@@ -4,9 +4,9 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Dmitry Shachnev <mitya57@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: debhelper (>= 9),
-               qtbase5-dev (>= 5.7.1+dfsg),
-               qtbase5-private-dev (>= 5.7.1+dfsg),
-               qtdeclarative5-private-dev (>= 5.7.1)
+               qtbase5-dev (>= 5.7.1+dfsg~),
+               qtbase5-private-dev (>= 5.7.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.7.1~)
 Standards-Version: 3.9.8
 Section: libs
 Homepage: http://qt-project.org
