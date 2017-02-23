@@ -1,4 +1,4 @@
-qtdeclarative-render2d-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
+qtdeclarative-render2d-opensource-src (5.7.1-0) unstable; urgency=medium
 
   * Initial release (Closes: #697509). Some parts of the packaging where based
     on Александр Волков's work.
